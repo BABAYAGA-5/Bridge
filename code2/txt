@@ -1,0 +1,7 @@
+int n=1;
+while(n>0)
+{
+    fork();
+    fork();
+    n=n-1;
+}
